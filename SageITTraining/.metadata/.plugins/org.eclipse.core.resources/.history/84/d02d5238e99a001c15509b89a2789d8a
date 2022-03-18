@@ -1,0 +1,19 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class ArrayListToSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> list =new ArrayList<String>();
+		list.add("Ashu");
+		list.add("Ashu");
+		list.add("vishal");
+		list.add("priya");
+		list.add("saddam");
+		System.out.println(list);
+
+	}
+
+}

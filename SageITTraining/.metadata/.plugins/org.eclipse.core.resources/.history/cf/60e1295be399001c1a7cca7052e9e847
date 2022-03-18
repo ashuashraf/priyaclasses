@@ -1,0 +1,14 @@
+package example.corejava;
+
+public class pattern {
+
+	public static void main(String[] args) {
+		int rows=6;
+		for (int i=1; i<=rows;++i) {
+			System.out.println(i);
+			
+		}
+
+	}
+
+}

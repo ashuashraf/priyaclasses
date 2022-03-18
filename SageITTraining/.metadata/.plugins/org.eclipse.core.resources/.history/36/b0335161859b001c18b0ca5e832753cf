@@ -1,0 +1,20 @@
+package multithread;
+
+ class MyThread extends Thread {
+		  public void run() {
+		  
+		  System.out.println("running.......");
+		  
+		  }
+		  class MyThreadDemo {
+		  
+			  public static void main(String[] args) {
+		  
+				  MyThread mt = new MyThread();
+		  
+				  Thread t = new Thread(mt);
+
+				  t.start();
+			  }
+		  }
+  }

@@ -1,0 +1,16 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class ListtoArrays {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list=new ArrayList<Integer>();
+		list.add(01);
+		list.add(02);
+		list.add(03);
+		list.add(04);
+		System.out.println(list);
+	}
+
+}

@@ -1,0 +1,32 @@
+package trainig;
+
+public class Mammal {
+
+	public Mammal(String string, String string2) {
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Mammal [getSound()=" + getSound() + ", getType()=" + getType() + "]";
+	}
+
+	public void setType(String dog) {
+		
+	}
+
+	public void setSound(String woof) {
+		
+		
+	}
+
+	public String getSound() {
+		return null;
+	}
+
+	public String getType() {
+		return null;
+	}
+
+}

@@ -1,0 +1,7 @@
+package testsageit;
+
+public class Engineer extends Employee{
+	private int salary;
+	private String grade;
+	
+}

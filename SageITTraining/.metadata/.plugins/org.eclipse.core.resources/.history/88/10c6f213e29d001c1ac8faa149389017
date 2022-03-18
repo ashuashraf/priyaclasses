@@ -1,0 +1,26 @@
+package testsageit;
+
+public class Engineer extends Employee{
+	private int salary;
+	private String grade;
+	@Override
+	int getSalary() {
+		
+		return salary;
+	}
+	@Override
+	void setSalary() {
+		
+	}
+	@Override
+	void setGrade() {
+	
+		
+	}
+	@Override
+	String getGrade() {
+	
+		return grade;
+	}
+	
+}

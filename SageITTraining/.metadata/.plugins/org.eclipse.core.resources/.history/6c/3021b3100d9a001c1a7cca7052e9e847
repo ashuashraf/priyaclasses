@@ -1,0 +1,13 @@
+package opps;
+class Dog extends beagle{
+ public void speak() {
+	 System.out.println("woof");
+ }
+ public static void main(String[] args) {
+	dog d=new dog();
+	d.speak();
+	beagle b=new beagle();
+	b.speak();
+	
+ }
+}

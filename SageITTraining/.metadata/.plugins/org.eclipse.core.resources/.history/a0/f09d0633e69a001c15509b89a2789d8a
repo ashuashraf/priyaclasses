@@ -1,0 +1,18 @@
+package collection;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class ArraysCovertToSet {
+	String [] listofWords = new String [5]; {
+	listofWords[0]  = "BMW";
+	listofWords[1]  = "Audi";
+	listofWords[2]  = "Mercedes";
+	listofWords[3]  = "Audi";
+	listofWords[4]  = "BMW";
+	Set<String> set = new HashSet<String>(Arrays.asList(listofWords));
+	System.out.println(set); //prints [Audi, Mercedes, BMW]
+
+}
+}

@@ -1,0 +1,9 @@
+package testsageit;
+
+ public abstract class Employee {
+	abstract int getSalary();
+	abstract void setSalary();
+	abstract void setGrade();
+	abstract String getGrade();
+
+}

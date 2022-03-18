@@ -1,0 +1,14 @@
+package oop;
+
+public class Dog {
+	public void speak() {
+		System.out.println("wooff");
+		
+		public static void main(String[] args) {
+			
+		}
+			
+			
+	}
+
+}

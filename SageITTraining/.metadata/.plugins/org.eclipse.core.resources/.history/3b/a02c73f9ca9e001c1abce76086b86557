@@ -1,0 +1,30 @@
+applications:
+- name: policy-api-rest-service
+  memory: 1G
+  instances: 1
+  health-check-type: http
+  health-check-http-endpoint: /health
+  env:
+	Java_OPS: -XX:MaxDirectMemorySize=128
+	spring.security.user.name: test
+	spring.security.user.password: test
+	
+	logging.level.com.org.policy: DEBUG
+	application.version: v1
+	
+	management.health.db.enabled: false
+	management.health.defaults.enabled: true
+	management.endpoints.web.base-path: /
+	
+	policy.datasource.hikari.connection-timeout: 5000
+	policy.datasource.hikari.maximum-pool-size: 3
+	policy.datasource.hikari.idel-timeout: 60000
+	policy.datasource.hikari.max-lifetime: 1800000
+	policy.datasource.hikari.minimum-idle: 2
+	
+	spring.datasource.ss.driverClassName: oracle.jdbc.driver.OracleDriver
+	spring.datasource.ss.url: jdbc:oracle:thin:@localhost:1521:xe
+	spring.datasource.ss.username: testuser
+	spring.datasource.ss.password: testuser
+		
+	server.port: 9165

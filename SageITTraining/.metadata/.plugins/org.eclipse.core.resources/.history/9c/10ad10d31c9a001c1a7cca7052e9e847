@@ -1,0 +1,22 @@
+package trainig;
+
+	public abstract class Animal extends Mammal {
+		
+		
+		public Animal(String string, String string2) {
+			super(string, string2);
+			// TODO Auto-generated constructor stub
+		}
+
+		public String type;
+		
+		public String sound;
+		
+		public abstract void setType(String type);
+		
+		public abstract String getType();
+		
+		public abstract void setSound(String sound);
+		
+		public abstract String getSound();
+		}

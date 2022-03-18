@@ -1,0 +1,30 @@
+package trainig;
+
+public class Mammal extends Animal {
+
+	@Override
+	public void setType(String type) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getType() {
+		// TODO Auto-generated method stub
+		return type;
+	}
+
+	@Override
+	public void setSound(String sound) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getSound() {
+		// TODO Auto-generated method stub
+		return sound;
+	}
+
+	
+}

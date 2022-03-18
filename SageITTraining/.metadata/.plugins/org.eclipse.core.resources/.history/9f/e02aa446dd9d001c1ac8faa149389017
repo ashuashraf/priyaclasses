@@ -1,0 +1,5 @@
+package testsageit;
+
+abstract class Employee {
+
+}

@@ -1,0 +1,9 @@
+package trainig;
+
+public class Mammal {
+
+	public Mammal(String string, String string2) {
+		
+		
+	}
+}

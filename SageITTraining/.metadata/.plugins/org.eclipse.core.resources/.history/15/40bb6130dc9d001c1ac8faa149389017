@@ -1,0 +1,5 @@
+package testsageit;
+
+public abstract class Employee {
+
+}
