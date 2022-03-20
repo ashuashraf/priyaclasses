@@ -7,8 +7,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.training.crudoperation.CourseRepository;
-import com.training.crudoperation.controller.Course;
+import com.training.crudoperation.entity.CourseRepository;
+import com.training.crudoperation.model.Course;
 
 @Service
 public class CourseService {

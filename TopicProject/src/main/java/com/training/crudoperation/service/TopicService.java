@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.training.crudoperation.TopicRepository;
-import com.training.crudoperation.controller.Topic;
+import com.training.crudoperation.entity.TopicRepository;
+import com.training.crudoperation.model.Topic;
 
 @Service
 public class TopicService {

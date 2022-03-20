@@ -1,4 +1,4 @@
-package com.training.crudoperation.controller;
+package com.training.crudoperation.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
