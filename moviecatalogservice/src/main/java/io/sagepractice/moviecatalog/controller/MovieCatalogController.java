@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import io.sagepractice.moviecatalog.model.CatalogItem;
 import io.sagepractice.moviecatalog.model.Movie;
@@ -15,7 +16,8 @@ import io.sagepractice.moviecatalog.model.Rating;
 @RestController
 @RequestMapping("/catalog")
 public class MovieCatalogController {
-	RestTemplate restTemplate=new RestTemplate();
+	@Autowired
+	RestTemplate restTemplate;
 	/*
 	 * Movie movie=restTemplate.getForObject("localhost:8082/movies/3",
 	 * Movie.class);
